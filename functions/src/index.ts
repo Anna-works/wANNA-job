@@ -13,3 +13,21 @@ export * from "./api/index";
 //   functions.logger.info("Hello logs!", {structuredData: true});
 //   response.send("Hello from Firebase!");
 // });
+
+
+/**
+ * If you have issues with cors:
+ * 
+ * You can do the following using the cors package: (which should solve it)
+ * 
+export const someCoolEndpoint = functions.https.onRequest(
+  (request, response) =>
+    cors(request, response, async () => {
+      try {
+       ... do you thing
+      } catch (error) {
+        do your error thing
+      }
+    })
+);
+ */

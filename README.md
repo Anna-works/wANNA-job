@@ -6,8 +6,7 @@
    1. [Backend](#backend)
    2. [Mobile](#mobile)
 2. [Setup](#setup)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+3. [Expectations](#expectations)
 
 ## What are we gonna build
 
@@ -54,6 +53,8 @@ Notice that you have to provide a token, which we will forward you, otherwise yo
 
 The backend code is all located in `/functions`
 
+**NOTE**: You can either run firestore direcly or check out the firebase emulator to run it locally, as the functions might require a paid account (though it will not cost you anything, you have 200.000 invocations for free, every month)
+
 ### Mobile
 
 For the mobile part of the app it is setup using the following:
@@ -67,9 +68,21 @@ Though we have provided small examples of using firestore and hooks, it is up to
 
 The project structure is completely up to you.
 
+**NOTE**: You can either run firestore direcly or check out the firebase emulator to run it locally.
+
 ## Setup
 
 There are a couple of things to setup in order to get going with the project.
+
+### Prerequisites
+
+You will need to have the following installed:
+- xcode (for ios)
+- Android studio (for android)
+- Node for running anything pretty much
+- [firebase-tools](https://github.com/firebase/firebase-tools)
+- Yarn or npm
+- 
 
 ### Firebase
 
@@ -82,7 +95,7 @@ After doing so, you need to go to the root of project and run do the following:
 (you might have to install `firebase-tools` first for this to work.)
 
 1. `firebase init`
-2. It might ask you to sign in else Select the project you just created.
+2. It might ask you to sign in (`firebase login --reauth`) else select the project you just created.
 3. You can select `Functions` and optionally `Emulators` but do not overwrite any of the existing files. Then you firebase should be setup.
 
 ### react-native-firebase
@@ -93,4 +106,30 @@ Please follow the steps in both
 
 Though notice the only thing you should need to do is creating the `android` and `ios` app in firebase according to the guide above.
 
-With that you should add the configuration files like described in the guide for both `
+With that you should add the configuration files like described in the guide for both `google-services.json` and `GoogleService-Info.plist`.
+
+The rest should be setup already :)
+
+
+## Expectations
+
+So we expect an app that would work like the mentioned 6 use case in top of the description.
+
+We will evaluate it on the following:
+- How you structure your project(s),
+- How you decide to parse the application (and why?)
+- If the application fulfills the 6 use cases
+- Quality of the code (readability, structure, etc.)
+- Explainations and considerations for the solutions
+- Use of react concepts 
+- If we can actually run the full project solution
+
+We will **NOT** evaluate it on the following:
+- Design (UI)
+- Tests (though it would be cool, but not required at all)
+- Time spent on the solution
+
+## Questions
+
+If you have any questions or issue with the above please let me know! You can always reach me at `niels@anna.co`
+
