@@ -7,6 +7,7 @@
    2. [Mobile](#mobile)
 2. [Setup](#setup)
 3. [Expectations](#expectations)
+3. [Questions](#questions)
 
 ## What are we gonna build
 
@@ -110,6 +111,10 @@ With that you should add the configuration files like described in the guide for
 
 The rest should be setup already :)
 
+
+### Run the thing
+
+Check the package.json files in both `/mobile` and `/functions` it should have all you need to run it.
 
 ## Expectations
 
