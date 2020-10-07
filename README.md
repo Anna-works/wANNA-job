@@ -24,6 +24,8 @@ So the overview of the app is:
 5. View a list of submitted applications (mobile)
 6. View the profile of that application (mobile)
 
+![Use case](use-case.png)
+
 ### Backend
 
 We are building a parser to simplify the response from incoming applications and storing it in a way (in firestore) so it can be retrieved for that specific restaurant it was submitted to.
