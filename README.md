@@ -17,12 +17,12 @@ Backend with NodeJS, cloud functions and mobile React-native with firebase fires
 
 So the overview of the app is:
 
-1. Application submitted (backend)
-2. Parsing the application to a nice/simple format (backend)
-3. Then the user can view the list of restaurants (mobile)
-4. Select a restaurant (mobile)
-5. View a list of submitted applications (mobile)
-6. View the profile of that application (mobile)
+1. Handle submitted applications from Typeform
+2. Parse the application to a nice/simple format and store it in the database for later queries (in firestore) (backend)
+3. Show the user a list of restaurants (mobile)
+4. Allow the user to select a restaurant (mobile)
+5. When selecting a restaurant the user should be able to see a list of submitted applications for that specific restaurant (mobile)
+6. When selecting a specific application the user should be able to see the details of that application (Mobile)
 
 ![Use case](use-case.png)
 
