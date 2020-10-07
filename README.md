@@ -17,7 +17,7 @@ Backend with NodeJS, cloud functions and mobile React-native with firebase fires
 
 So the overview of the app is:
 
-1. Handle submitted applications from Typeform
+1. Handle submitted applications from Typeform (our endpoint)
 2. Parse the application to a nice/simple format and store it in the database for later queries (in firestore) (backend)
 3. Show the user a list of restaurants (mobile)
 4. Allow the user to select a restaurant (mobile)
